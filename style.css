@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     display: block;
 }
@@ -12,16 +13,23 @@ main {
 }
 
 section {
-    display: inline;
     float: right;
     width: 200px;
-    height: 200px;
+    margin-top: 10px;
 }
 
 .button {
-    display: inline;
+    display: inline-block;
     width: 180px;
-    background-color: darkblue;
+    height: 50px;
+    /* background-color: darkblue; */ /* initial color */
+    background-image: linear-gradient(black,  #1f618d );
+    margin-top: 10px;
+    line-height: 50px;
+    padding-right: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .about {
@@ -31,10 +39,6 @@ section {
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-h2 {
-
 }
 
 p {
@@ -49,4 +53,5 @@ img {
 
 footer {
     display: block;
+    margin-top: 25px;
 }
